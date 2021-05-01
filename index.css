@@ -10,7 +10,10 @@
 }
 
 body{
-  background-color:  lightblue;
+  margin: 0;
+    padding: 0;
+    background-color:#6abadeba;
+    font-family: 'Arial';
 }
 h1 {
     text-align: center;
