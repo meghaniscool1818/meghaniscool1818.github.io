@@ -10,7 +10,9 @@
 }
 
 body{
-  background-color:  lightblue;
+  background-color:  LightBlue;
+  background-image: url(waves_0.jpg);
+
 }
 h1 {
     text-align: center;
@@ -217,15 +219,15 @@ h2 {
   background-color: #4CAF50; /* Add a green color to the "active/current" link */
   color: white;
 }
-  .navbar {
+.navbar {
   overflow: hidden;
-
+  background-color: lightyellow;
 }
 
 .navbar a {
   float: left;
   font-size: 16px;
-  color: lightyellow;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -238,17 +240,15 @@ h2 {
 
 .menu .btn {
   font-size: 16px;
-  font-weight: bold;
   border: none;
   outline: none;
-  color: Black;
+  color: white;
   padding: 14px 16px;
   background-color: inherit;
 }
 
 .navbar a:hover, .menu:hover .btn {
-  background-color: pink;
-}
+  background-color: grey;
 }
 
 .dropdown-content {
@@ -256,8 +256,7 @@ h2 {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 5px 5px lightyellow;
-
+  box-shadow: 5px 5px lightsteelblue;
 }
 
 .dropdown-content a {
